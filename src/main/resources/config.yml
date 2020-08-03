@@ -1,0 +1,9 @@
+check_update: true
+
+#登录超时时间,单位:秒
+login-timeout: 90
+#绑定cid开关,防恶意注册和非法登陆(仅sqlserver"和"mysql"模式下可用,本地模式请勿启动本功能)
+bind-cid: false
+#密码是否使用MD5 + salt加密,salt可不填
+using_MD5: false
+salt:

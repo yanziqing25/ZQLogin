@@ -1,0 +1,21 @@
+name: ZQLogin
+main: cn.yzq25.login.LoginMain
+version: "2.3.4"
+api: ["1.0.6"]
+load: POSTWORLD
+softdepend:
+- ZQExtension
+depend:
+- ZQExtension
+
+author: Yanziqing25
+description: 服务器登录插件
+website: http://www.yzq25.cn
+
+permissions:
+  login.command:
+    children:
+      login.command.changepassword:
+        default: op
+      login.command.bindemail:
+        default: op
